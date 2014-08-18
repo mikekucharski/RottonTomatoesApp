@@ -28,7 +28,7 @@ namespace RottonTomatoesApp
 			if (convertView == null) // no view to re-use, create new
 				view = (View) inflater.Inflate (Resource.Layout.ListItemHeader, null);
 
-			view.FindViewById<TextView> (Resource.Id.headerrr).Text = name;
+			view.FindViewById<TextView> (Resource.Id.header).Text = name;
 			return view;
 		}
 	}

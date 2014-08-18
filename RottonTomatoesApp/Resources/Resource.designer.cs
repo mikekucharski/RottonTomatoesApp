@@ -24,6 +24,10 @@ namespace RottonTomatoesApp
 			global::Android.Runtime.ResourceIdManager.UpdateIdValues();
 		}
 		
+		public static void UpdateIdValues()
+		{
+		}
+		
 		public partial class Array
 		{
 			
@@ -106,22 +110,31 @@ namespace RottonTomatoesApp
 			public const int arrow = 2130837504;
 			
 			// aapt resource value: 0x7f020001
-			public const int Icon = 2130837505;
+			public const int good_rating = 2130837505;
 			
 			// aapt resource value: 0x7f020002
-			public const int large_movie_poster = 2130837506;
+			public const int Icon = 2130837506;
 			
 			// aapt resource value: 0x7f020003
-			public const int ListItemMovieSelector = 2130837507;
+			public const int large_movie_poster = 2130837507;
 			
 			// aapt resource value: 0x7f020004
-			public const int rotton_rating = 2130837508;
+			public const int ListItemMovieSelector = 2130837508;
 			
 			// aapt resource value: 0x7f020005
-			public const int small_movie_poster = 2130837509;
+			public const int rotton_rating = 2130837509;
 			
 			// aapt resource value: 0x7f020006
-			public const int testimage = 2130837510;
+			public const int rotton_rating_large = 2130837510;
+			
+			// aapt resource value: 0x7f020007
+			public const int small_movie_poster = 2130837511;
+			
+			// aapt resource value: 0x7f020008
+			public const int testimage = 2130837512;
+			
+			// aapt resource value: 0x7f020009
+			public const int testimage_large = 2130837513;
 			
 			static Drawable()
 			{
@@ -139,6 +152,12 @@ namespace RottonTomatoesApp
 			// aapt resource value: 0x7f07000a
 			public const int BoxOfficeMoviesList = 2131165194;
 			
+			// aapt resource value: 0x7f07000f
+			public const int Director = 2131165199;
+			
+			// aapt resource value: 0x7f070012
+			public const int Genre = 2131165202;
+			
 			// aapt resource value: 0x7f070005
 			public const int MovieCast = 2131165189;
 			
@@ -148,11 +167,17 @@ namespace RottonTomatoesApp
 			// aapt resource value: 0x7f070001
 			public const int MovieImage = 2131165185;
 			
+			// aapt resource value: 0x7f07000b
+			public const int MovieImageLarge = 2131165195;
+			
 			// aapt resource value: 0x7f070006
 			public const int MovieRating = 2131165190;
 			
 			// aapt resource value: 0x7f070003
 			public const int MovieScore = 2131165187;
+			
+			// aapt resource value: 0x7f07000d
+			public const int MovieScoreLarge = 2131165197;
 			
 			// aapt resource value: 0x7f070007
 			public const int MovieTime = 2131165191;
@@ -163,14 +188,26 @@ namespace RottonTomatoesApp
 			// aapt resource value: 0x7f070004
 			public const int MovieTomato = 2131165188;
 			
+			// aapt resource value: 0x7f07000c
+			public const int MovieTomatoLarge = 2131165196;
+			
+			// aapt resource value: 0x7f070010
+			public const int Rated = 2131165200;
+			
+			// aapt resource value: 0x7f070013
+			public const int ReleaseDate = 2131165203;
+			
 			// aapt resource value: 0x7f070009
 			public const int RightArrow = 2131165193;
 			
-			// aapt resource value: 0x7f07000b
-			public const int dsds = 2131165195;
+			// aapt resource value: 0x7f070011
+			public const int RunningTime = 2131165201;
+			
+			// aapt resource value: 0x7f07000e
+			public const int Synopsis = 2131165198;
 			
 			// aapt resource value: 0x7f070000
-			public const int headerrr = 2131165184;
+			public const int header = 2131165184;
 			
 			static Id()
 			{

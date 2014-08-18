@@ -4,7 +4,7 @@
     android:layout_width="fill_parent"
     android:layout_height="wrap_content">
     <TextView
-        android:id="@+id/headerrr"
+        android:id="@+id/header"
         android:text="Opening This Week"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"

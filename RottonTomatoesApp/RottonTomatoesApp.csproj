@@ -52,6 +52,7 @@
     <Compile Include="MainActivity.cs" />
     <Compile Include="BoxOfficeAdapter.cs" />
     <Compile Include="MovieActivity.cs" />
+    <Compile Include="StringHelper.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -73,6 +74,9 @@
     <AndroidResource Include="Resources\values\colors.xml" />
     <AndroidResource Include="Resources\drawable\rotton_rating.PNG" />
     <AndroidResource Include="Resources\layout\Movie.axml" />
+    <AndroidResource Include="Resources\drawable\testimage_large.jpg" />
+    <AndroidResource Include="Resources\drawable\rotton_rating_large.png" />
+    <AndroidResource Include="Resources\drawable\good_rating.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <ItemGroup>

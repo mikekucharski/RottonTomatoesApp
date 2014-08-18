@@ -12,7 +12,6 @@
         android:maxHeight="93dp"
         android:scaleType="fitXY"
         android:adjustViewBounds="true"
-        android:contentDescription="poster image"
         android:src="@drawable/testimage" />
     <TextView
         android:id="@+id/MovieTitle"
