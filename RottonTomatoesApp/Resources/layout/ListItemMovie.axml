@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:gravity="top">
+    <ImageView
+        android:id="@+id/MovieImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:maxHeight="93dp"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+        android:contentDescription="poster image"
+        android:src="@drawable/testimage" />
+    <TextView
+        android:id="@+id/MovieTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/MovieImage"
+        android:text="The Dark Knight"
+        android:textSize="14sp"
+        android:textColor="@color/movietitleblue"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/MovieScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/MovieTitle"
+        android:layout_below="@+id/MovieTitle"
+        android:text="93%"
+        android:textSize="13sp" />
+    <ImageView
+        android:id="@+id/MovieTomato"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/MovieScore"
+        android:layout_toRightOf="@+id/MovieScore"
+        android:src="@drawable/rotton_rating" />
+    <TextView
+        android:id="@+id/MovieCast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/MovieScore"
+        android:layout_alignLeft="@+id/MovieScore"
+        android:lines="1"
+        android:gravity="bottom"
+        android:text="Christian Bale, Joseph-Gordon Levitt"
+        android:textSize="13sp" />
+    <TextView
+        android:id="@+id/MovieRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/MovieCast"
+        android:layout_alignLeft="@+id/MovieCast"
+        android:lines="1"
+        android:gravity="bottom"
+        android:text="PG-13, "
+        android:textSize="13sp" />
+    <TextView
+        android:id="@+id/MovieTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/MovieRating"
+        android:layout_toRightOf="@+id/MovieRating"
+        android:lines="1"
+        android:gravity="bottom"
+        android:text="2 hr. 6 min."
+        android:textSize="13sp" />
+    <TextView
+        android:id="@+id/MovieDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/MovieRating"
+        android:layout_alignLeft="@+id/MovieRating"
+        android:lines="1"
+        android:gravity="bottom"
+        android:text="Aug 15, 2014"
+        android:textSize="13sp" />
+    <ImageView
+        android:id="@+id/RightArrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/arrow"
+        android:layout_centerVertical="true" />
+</RelativeLayout>

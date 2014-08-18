@@ -1,0 +1,14 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.e3900bc5" />
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="RottonTomatoesApp\MainActivity.cs" Line="1" Column="1" />
+      <File FileName="RottonTomatoesApp\MovieActivity.cs" Line="28" Column="28" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.RottonTomatoesApp MonoForAntroid.PreferredDevice="Galaxy Nexus" MonoForAntroid.PreferredTheme="Theme.Holo.Light" />
+</Properties>

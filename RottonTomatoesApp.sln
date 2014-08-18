@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RottonTomatoesApp", "RottonTomatoesApp\RottonTomatoesApp.csproj", "{2315FC0F-7130-48E7-8812-7DA2EA1AF7C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortableAPI", "PortableAPI\PortableAPI.csproj", "{DCDB1CB4-A6F7-47FB-85D2-CDFC60774084}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2315FC0F-7130-48E7-8812-7DA2EA1AF7C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2315FC0F-7130-48E7-8812-7DA2EA1AF7C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2315FC0F-7130-48E7-8812-7DA2EA1AF7C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2315FC0F-7130-48E7-8812-7DA2EA1AF7C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCDB1CB4-A6F7-47FB-85D2-CDFC60774084}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCDB1CB4-A6F7-47FB-85D2-CDFC60774084}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCDB1CB4-A6F7-47FB-85D2-CDFC60774084}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCDB1CB4-A6F7-47FB-85D2-CDFC60774084}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = RottonTomatoesApp\RottonTomatoesApp.csproj
+	EndGlobalSection
+EndGlobal
