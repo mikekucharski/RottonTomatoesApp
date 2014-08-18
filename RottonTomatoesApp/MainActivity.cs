@@ -43,7 +43,7 @@ namespace RottonTomatoesApp
 				if(items[e.Position].getViewType() == 1){
 					Toast.MakeText (this, "You clicked a list item! ", ToastLength.Long).Show();
 					var movieActivity = new Intent(this, typeof(MovieActivity));
-					movieActivity.
+
 					StartActivity(movieActivity);
 				}
 			};
