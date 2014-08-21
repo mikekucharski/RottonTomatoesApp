@@ -42,17 +42,21 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="Mono.Android" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\..\..\Downloads\Json60r4\Bin\Portable40\Newtonsoft.Json.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="MovieItem.cs" />
-    <Compile Include="ItemInterface.cs" />
     <Compile Include="Header.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="BoxOfficeAdapter.cs" />
     <Compile Include="MovieActivity.cs" />
     <Compile Include="StringHelper.cs" />
+    <Compile Include="RTAPI.cs" />
+    <Compile Include="ItemInterface.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -82,5 +86,11 @@
   <ItemGroup>
     <Folder Include="Resources\drawable-hdpi\" />
     <Folder Include="Resources\drawable\drawable\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PortableAPI\PortableAPI.csproj">
+      <Project>{DCDB1CB4-A6F7-47FB-85D2-CDFC60774084}</Project>
+      <Name>PortableAPI</Name>
+    </ProjectReference>
   </ItemGroup>
 </Project>

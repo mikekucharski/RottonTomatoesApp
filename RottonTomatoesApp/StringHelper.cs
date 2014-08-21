@@ -1,4 +1,7 @@
 ﻿using System;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
+using System.Collections.Generic;
 
 namespace RottonTomatoesApp
 {
@@ -20,6 +23,10 @@ namespace RottonTomatoesApp
 			string monthString = monthStrings[month-1];
 
 			return monthString + " " + day + ", " + year;
+		}
+
+		public static List<MovieItem> getMoviesFromJson(string json){
+			return null;
 		}
 	}
 }

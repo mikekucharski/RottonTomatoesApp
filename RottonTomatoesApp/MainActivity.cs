@@ -9,6 +9,7 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using Android.Util;
 
 namespace RottonTomatoesApp
 {
@@ -21,6 +22,15 @@ namespace RottonTomatoesApp
 			this.Title = "Box Office Movies";
 
 			SetContentView (Resource.Layout.Main);
+			string res = PortableAPI.RTAPI.getTopBoxOffice ();
+			Log.Info ("test", res);
+			res = "Hello";
+			Log.Info ("test", res);
+
+			string OTW = PortableAPI.RTAPI.getOpeningThisWeek ();
+			List<MovieItem> otwMovies = StringHelper.getMoviesFromJson (OTW);
+
+
 			String url = "http://content6.flixster.com/movie/11/17/98/11179872_mob.jpg";
 			//url = "http://developer.xamarin.com/recipes/android/controls/imageview/display_an_image/Images/DisplayImage.png";
 			List<Item> items = new List<Item> ();

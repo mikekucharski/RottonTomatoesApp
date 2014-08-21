@@ -53,7 +53,7 @@ namespace RottonTomatoesApp
 			view.FindViewById<TextView> (Resource.Id.MovieDate).Text = StringHelper.dateFormatter(date);
 			int tomatoImg = (critics_rating == "Certified Fresh") ? Resource.Drawable.good_rating : Resource.Drawable.rotton_rating;
 			view.FindViewById<ImageView> (Resource.Id.MovieTomato).SetImageResource(tomatoImg);
-
+	
 			var webClient = new WebClient ();
 			var imageBytes = webClient.DownloadData(imagePath);
 			Bitmap imageBitmap = BitmapFactory.DecodeByteArray(imageBytes, 0, imageBytes.Length);
